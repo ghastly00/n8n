@@ -1,5 +1,16 @@
 {
 	"permissions": {
 		"allow": ["Bash(find:*)", "Bash(pnpm typecheck:*)", "Bash(pnpm build)", "Bash(pnpm lint:*)"]
+	},
+	"extraKnownMarketplaces": {
+		"ecc": {
+			"source": {
+				"source": "github",
+				"repo": "affaan-m/ECC"
+			}
+		}
+	},
+	"enabledPlugins": {
+		"ecc@ecc": true
 	}
 }
